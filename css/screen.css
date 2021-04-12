@@ -19,10 +19,14 @@ h1 {
 
 h2 {
   text-align: center;
-  font-size: 75%;
+  font-size: 100%;
   font-weight: bold;
   margin-bottom: 1em;
   color: #1e90ff;
+  float: center;
+  margin-left: 12em;
+  margin-top: -8em;
+  margin-bottom: 3em;
 }
 
 h3 {
@@ -39,6 +43,7 @@ img.logo {
 
 img.human-rights {
   padding-left: 1em;
+  padding-top: 2em;
   width: 20em;
 }
 
@@ -46,6 +51,7 @@ footer {
   padding-left: 0.5em;
   background-color: #1e90ff;
   color: #FFFFFF;
+  box-shadow: 0 0 25px 0 black;
 }
 
 nav {
@@ -55,6 +61,8 @@ nav {
   margin: 0 auto;
   overflow: hidden;
   background-color: #1e90ff;
+  box-shadow: 0 0 25px 0 black;
+  margin: 20px;
 }
 
 nav li {
@@ -70,6 +78,9 @@ nav li:hover {
 
 nav a {
   color: white;
+  margin-right: 1em;
+  margin-left: 1em;
+  padding-right: 1em;
 }
 
 li.nav-buttons {
@@ -79,4 +90,5 @@ li.nav-buttons {
 .front {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: -5em;
 }
