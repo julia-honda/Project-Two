@@ -68,3 +68,22 @@ li.nav-buttons {
   display: flex;
   flex-wrap: wrap;
 }
+
+/*Here starts form css*/
+fieldset{
+  border-color: transparent;
+}
+#form-content{
+  display: block;
+}
+
+.form-inputs{
+  list-style-type: none;
+}
+
+input{
+  border-color: transparent;
+  background-color: #8FC8FF;
+  overflow: visible;
+}
+/*Here ends form css*/
