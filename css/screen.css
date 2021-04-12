@@ -99,3 +99,42 @@ li.nav-buttons {
   flex-wrap: wrap;
   margin-bottom: -5em;
 }
+
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 75%
+  }
+
+  h2 {
+    font-size: 50%;
+    margin-top: 1.3em;
+    margin-left: 22em;
+    position: fixed;
+  }
+
+  h3 {
+    font-size: 75%;
+    margin-top: 3em;
+  }
+
+  main {
+    font-size: 75%;
+  }
+
+  img.logo {
+    width: 4em;
+    height: 4em;
+  }
+
+  nav {
+    height: 3em;
+  }
+
+  nav li {
+  font-size: 75%;
+  float: none;
+  display: inline-block;
+  text-align: center;
+  margin-top: -5em;
+}
+}
