@@ -141,45 +141,6 @@ li.nav-buttons {
 
 @media screen and (min-width: 1024px) {
   h1 {
-    font-size: 170%
-  }
-
-  h2 {
-    font-size: 100%;
-    margin-top: 1.3em;
-    margin-left: 22em;
-    position: fixed;
-  }
-
-  h3 {
-    font-size: 125%;
-    margin-top: 3em;
-  }
-
-  main {
-    font-size: 125%;
-  }
-
-  img.logo {
-    width: 10em;
-    height: 10em;
-  }
-
-  nav {
-    height: 4em;
-  }
-
-  nav li {
-  font-size: 125%;
-  float: none;
-  display: inline-block;
-  text-align: center;
-  margin-top: -5em;
-}
-}
-
-@media screen and (min-width: 1024px) {
-  h1 {
     font-size: 150%
   }
 
