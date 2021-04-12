@@ -26,3 +26,19 @@ h2 {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
+
+img {
+  padding-top: 1em;
+  padding-left: 3em;
+  width: 10em;
+  height: 10em;
+}
+
+footer {
+  margin-top: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  background-color: #1e90ff;
+  color: #FFFFFF;
+}
