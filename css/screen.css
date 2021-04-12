@@ -51,13 +51,28 @@ footer {
   color: #FFFFFF;
 }
 
-
 nav {
   flex-wrap: wrap;
   list-style-type: none;
   text-align: center;
   margin: 0 auto;
-  display: table;
+  overflow: hidden;
+  background-color: #1e90ff;
+}
+
+nav li {
+  float: none;
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+nav li:hover {
+  background-color: #005BFF;
+}
+
+nav a {
+  color: white;
 }
 
 li.nav-buttons {
