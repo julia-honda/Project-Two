@@ -7,31 +7,39 @@ html {
 }
 
 h1 {
-  font-size: 250%;
+  font-size: 150%;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 0.5em;
-  margin-top: 0.5em;
   background-color: #1e90ff;
   color: #FFFFFF;
+  margin-bottom: 6em;
+  margin-left: 2em;
+  margin-top: 3em;
 }
 
 h2 {
-  font-size: 100%;
-  font-weight: bold;
   text-align: center;
+  font-size: 75%;
+  font-weight: bold;
   margin-bottom: 1em;
-  background-color: #1e90ff;
-  color: #FFFFFF;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  color: #1e90ff;
 }
 
-img {
+h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+img.logo {
   padding-top: 1em;
-  padding-left: 3em;
+  padding-left: 2em;
   width: 10em;
   height: 10em;
+}
+
+img.human-rights {
+  padding-left: 1em;
+  width: 20em;
 }
 
 footer {
@@ -41,4 +49,21 @@ footer {
   padding-left: 0.5em;
   background-color: #1e90ff;
   color: #FFFFFF;
+}
+
+nav {
+  flex-wrap: wrap;
+  list-style-type: none;
+  text-align: center;
+  margin: 0 auto;
+  display: table;
+}
+
+li.nav-buttons {
+  list-style-type: none;
+}
+
+.front {
+  display: flex;
+  flex-wrap: wrap;
 }
