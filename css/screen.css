@@ -21,18 +21,6 @@ h1 {
   border-bottom-right-radius: 10px;
 }
 
-h2 {
-  text-align: center;
-  font-size: 100%;
-  font-weight: bold;
-  margin-bottom: 1em;
-  color: #1e90ff;
-  float: center;
-  margin-left: 22em;
-  margin-top: -3.5em;
-  position: fixed;
-}
-
 h3 {
   text-align: center;
   font-weight: bold;
@@ -105,12 +93,6 @@ li.nav-buttons {
     font-size: 45%;
   }
 
-  h2 {
-    font-size: 35%;
-    margin-top: 7em;
-    margin-left: 25em;
-  }
-
   h3 {
     font-size: 45%;
     margin-top: 12em;
@@ -141,12 +123,6 @@ li.nav-buttons {
 @media screen and (min-width: 600px) {
   h1 {
     font-size: 75%
-  }
-
-  h2 {
-    font-size: 50%;
-    margin-top: 1.3em;
-    margin-left: 22em;
   }
 
   h3 {
@@ -180,13 +156,6 @@ li.nav-buttons {
 @media screen and (min-width: 1024px) {
   h1 {
     font-size: 150%
-  }
-
-  h2 {
-    font-size: 100%;
-    margin-top: -4em;
-    margin-left: 21em;
-    position: fixed;
   }
 
   h3 {
