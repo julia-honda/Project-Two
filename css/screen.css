@@ -1,9 +1,20 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
 
 html {
   font-family: Poppins, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
   background: #FFFFFF;
   font-size: 1.125em;
+  padding-left: 1em;
+}
+#content{
+  padding-top: 2em;
+}
+
+.front {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -5em;
 }
 
 h1 {
@@ -12,7 +23,7 @@ h1 {
   text-align: center;
   background-color: #1e90ff;
   color: #FFFFFF;
-  margin-bottom: 6em;
+  margin-bottom: 4em;
   margin-left: 2em;
   margin-top: 3em;
   border-top-left-radius: 10px;
@@ -22,15 +33,7 @@ h1 {
 }
 
 h2 {
-  text-align: center;
-  font-size: 100%;
-  font-weight: bold;
-  margin-bottom: 1em;
   color: #1e90ff;
-  float: center;
-  margin-left: 22em;
-  margin-top: -3.5em;
-  position: fixed;
 }
 
 h3 {
@@ -46,8 +49,12 @@ img.logo {
 }
 
 img.human-rights {
+  display: block;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 1em;
-  padding-top: 2em;
+  padding-top: 1em;
   width: 20em;
 }
 
@@ -59,17 +66,18 @@ footer {
 
 nav {
   flex-wrap: wrap;
+  background-color: #1e90ff;
   list-style-type: none;
   text-align: center;
   margin: 0 auto;
   overflow: hidden;
-  background-color: #1e90ff;
   box-shadow: 0 0 25px 0 black;
   margin: 20px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  padding-bottom: 1em;
 }
 
 nav li {
@@ -84,6 +92,7 @@ nav li:hover {
 }
 
 nav a {
+  text-decoration: none;
   color: white;
   margin-right: 1em;
   margin-left: 1em;
@@ -94,11 +103,52 @@ li.nav-buttons {
   list-style-type: none;
 }
 
-.front {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: -5em;
+/*Here starts form css*/
+/*.contact-header{
+  justify-content: center;
+  margin-bottom: -3em;
+}*/
+
+fieldset{
+  border-color: transparent;
 }
+#form-content{
+  display: block;
+  text-align: center;
+}
+
+.form-inputs{
+  list-style-type: none;
+}
+
+input{
+  font-family: Poppins, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
+  border-color: transparent;
+  background-color: #8FC8FF;
+  overflow: visible;
+  align-content: center;
+  padding-bottom: 0.5em;
+}
+label{
+  padding-top: 1em;
+  display: block;
+  justify-content: center;
+}
+#reason{
+  padding-bottom: 6em;
+}
+.contact-statement{
+  text-align: center;
+  font-size: 100%;
+  font-weight: bold;
+  margin-bottom: 1em;
+  color: #1e90ff;
+  float: center;
+}
+.sub-button{
+
+}
+/*Here ends form css*/
 
 @media screen and (min-width:340px) {
   h1 {
@@ -109,7 +159,6 @@ li.nav-buttons {
     font-size: 35%;
     margin-top: 7em;
     margin-left: 25em;
-    position: fixed;
   }
 
   h3 {
@@ -148,7 +197,6 @@ li.nav-buttons {
     font-size: 50%;
     margin-top: 1.3em;
     margin-left: 22em;
-    position: fixed;
   }
 
   h3 {
@@ -188,7 +236,6 @@ li.nav-buttons {
     font-size: 100%;
     margin-top: -4em;
     margin-left: 21em;
-    position: fixed;
   }
 
   h3 {
@@ -216,24 +263,6 @@ li.nav-buttons {
   display: inline-block;
   text-align: center;
   margin-top: -5em;
-}
-}
+  }
 
-/*Here starts form css*/
-fieldset{
-  border-color: transparent;
 }
-#form-content{
-  display: block;
-}
-
-.form-inputs{
-  list-style-type: none;
-}
-
-input{
-  border-color: transparent;
-  background-color: #8FC8FF;
-  overflow: visible;
-}
-/*Here ends form css*/
