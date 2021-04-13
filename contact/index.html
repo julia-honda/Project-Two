@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="nojs">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
@@ -7,7 +7,8 @@
   <link rel="stylesheet" type="text/css" href="../css/screen.css" />
   <link rel="stylesheet" type="text.css" href="../css/resets.css" />
   <link rel= "icon" href="media/ISUD-Logo.jpg" />
-  <script src="js/site.js" async></script>
+  <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script async src="js/site.js"></script>
 </head>
 
   <body>
@@ -27,7 +28,7 @@
     </header>
 
     <main id="form-content">
-      <form id="form-one" method="get" autocomplete="on" action="#null">
+      <form id="form-one" method="get" autocomplete="on" action="#null" onsubmit= "return validationEvent()">
         <p class="contact-statement">If you have any questions regarding our organization and upcoming events please fill out the form below.</p>
         <fieldset>
           <div id="wrap">
