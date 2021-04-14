@@ -1,49 +1,50 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
 
 html {
   font-family: Poppins, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
   background: #FFFFFF;
-  font-size: 1.125em;
-  padding-left: 1em;
+  font-size: 0.75em;
+  padding: 1em;
 }
+
 #content{
   padding-top: 2em;
 }
 
-.front {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: -5em;
-}
-
 h1 {
-  font-size: 150%;
+  font-size: 100%;
   font-weight: bold;
   text-align: center;
   background-color: #1e90ff;
   color: #FFFFFF;
-  margin-bottom: 4em;
-  margin-left: 2em;
-  margin-top: 3em;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
-h2 {
-  color: #1e90ff;
+h4 {
+  font-weight: bold;
+  padding: 0.5em;
 }
 
-h3 {
-  text-align: center;
-  font-weight: bold;
+img.statue {
+  display: block;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  width: 20em;
 }
 
 img.logo {
-  padding-top: 1em;
-  padding-left: 2em;
+  display: block;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
   width: 10em;
   height: 10em;
 }
@@ -55,73 +56,67 @@ img.human-rights {
   margin-right: auto;
   padding-left: 1em;
   padding-top: 1em;
+  padding-bottom: 1em;
   width: 20em;
 }
 
+ul {
+  list-style-type: disc;
+  padding-top: 0.5em;
+  padding: 0.5em;
+  margin-left: 1em;
+}
+
+p {
+  padding-top: 1em;
+}
+
 footer {
+  font-size: 100%;
   padding-left: 0.5em;
+  padding: 0.5em;
   background-color: #1e90ff;
   color: #FFFFFF;
 }
 
 nav {
-  flex-wrap: wrap;
   background-color: #1e90ff;
   list-style-type: none;
   text-align: center;
-  margin: 0 auto;
-  overflow: hidden;
   box-shadow: 0 0 25px 0 black;
-  margin: 20px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  padding-bottom: 1em;
+  margin-top: 2em;
 }
 
 nav li {
-  float: none;
   display: inline-block;
   text-align: center;
-  padding: 14px 16px;
-}
-
-nav li:hover {
-  background-color: #005BFF;
-}
-
-nav a {
   text-decoration: none;
   color: white;
-  margin-right: 1em;
-  margin-left: 1em;
-  padding-right: 1em;
 }
-
-li.nav-buttons {
-  list-style-type: none;
-}
-
 /*Here starts form css*/
 /*.contact-header{
   justify-content: center;
   margin-bottom: -3em;
 }*/
 
-fieldset{
+fieldset {
   border-color: transparent;
 }
-#form-content{
+
+#form-content {
   display: block;
   text-align: center;
 }
 
-.form-inputs{
+.form-inputs {
   list-style-type: none;
 }
 
-input{
+input {
   font-family: Poppins, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
   border-color: transparent;
   background-color: #8FC8FF;
@@ -129,15 +124,18 @@ input{
   align-content: center;
   padding-bottom: 0.5em;
 }
-label{
+
+label {
   padding-top: 1em;
   display: block;
   justify-content: center;
 }
-#reason{
+
+#reason {
   padding-bottom: 6em;
 }
-.contact-statement{
+
+.contact-statement {
   text-align: center;
   font-size: 100%;
   font-weight: bold;
@@ -145,137 +143,32 @@ label{
   color: #1e90ff;
   float: center;
 }
-.sub-button{
+
+.sub-button {
 
 }
 /*Here ends form css*/
 
-@media screen and (min-width:340px) {
-  h1 {
-    font-size: 45%;
-  }
-
-  h2 {
-    font-size: 35%;
-    margin-top: 7em;
-    margin-left: 25em;
-  }
-
-  h3 {
-    font-size: 45%;
-    margin-top: 12em;
-  }
-
-  main {
-    font-size: 45%;
-  }
-
-  img.logo {
-    height: 4em;
-    width: 4em;
-  }
-
-  nav {
-    height: 1.5em;
-  }
-
-  nav ul {
-    font-size: 45%;
-    float: none;
-    display: inline-block;
-    text-align: center;
-    margin-top: -5em;
-  }
-}
-
-@media screen and (min-width: 600px) {
-  h1 {
-    font-size: 75%
-  }
-
-  h2 {
-    font-size: 50%;
-    margin-top: 1.3em;
-    margin-left: 22em;
-  }
-
-  h3 {
-    font-size: 75%;
-    margin-top: 3em;
-  }
-
-  main {
-    font-size: 75%;
-  }
-
-  img.logo {
-    width: 4em;
-    height: 4em;
-  }
-
-  nav {
-   height: 3em;
-   scale: 75%;
-  }
-
-  nav ul {
-  font-size: 100%;
-  float: none;
-  display: inline-block;
-  text-align: center;
-  margin-top: -5em;
-}
-}
-
 @media screen and (min-width: 1024px) {
-  
-  header{
-    display: grid;
-    grid-template-columns: 10em auto;
-    grid-template-rows: 5em auto;
-  }
-  
-  nav{
-    grid-row-start: 2;
-    grid-column-end: span 2;
-  }
-  
-  
-  h1 {
-    font-size: 150%
-  }
-
-  h2 {
-    font-size: 100%;
-    margin-top: -4em;
-    margin-left: 21em;
-  }
-
-  h3 {
-    font-size: 100%;
-    margin-top: 3em;
-  }
 
   main {
-    font-size: 100%;
+    font-size: 125%;
   }
 
   img.logo {
-    width: 8em;
-    height: 8em;
+    width: 20em;
+    height: 20em;
   }
 
-  nav {
-    height: 3em;
-    padding-top: 1em;
+  img.statue {
+    width: 30em;
   }
 
-  nav ul {
-  font-size: 125%;
-  float: none;
-  display: inline-block;
-  text-align: center;
-  margin-top: -5em;
+  h1 {
+    font-size: 200%;
   }
 
+  nav a {
+    font-size: 150%;
+  }
 }
