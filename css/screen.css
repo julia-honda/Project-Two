@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
 
 html {
@@ -55,6 +54,11 @@ li {
   list-style-type: disc;
   padding-top: 0.5em;
   padding: 0.5em;
+  margin-left: 1em;
+}
+
+p {
+  padding-top: 1em;
 }
 
 footer {
@@ -88,20 +92,21 @@ nav li {
   justify-content: center;
   margin-bottom: -3em;
 }*/
-/*
-fieldset{
+
+fieldset {
   border-color: transparent;
 }
-#form-content{
+
+#form-content {
   display: block;
   text-align: center;
 }
 
-.form-inputs{
+.form-inputs {
   list-style-type: none;
 }
 
-input{
+input {
   font-family: Poppins, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
   border-color: transparent;
   background-color: #8FC8FF;
@@ -109,15 +114,18 @@ input{
   align-content: center;
   padding-bottom: 0.5em;
 }
-label{
+
+label {
   padding-top: 1em;
   display: block;
   justify-content: center;
 }
-#reason{
+
+#reason {
   padding-bottom: 6em;
 }
-.contact-statement{
+
+.contact-statement {
   text-align: center;
   font-size: 100%;
   font-weight: bold;
@@ -125,88 +133,12 @@ label{
   color: #1e90ff;
   float: center;
 }
-.sub-button{
+
+.sub-button {
 
 }
 /*Here ends form css*/
 /*
-@media screen and (min-width:340px) {
-  h1 {
-    font-size: 45%;
-  }
-
-  h2 {
-    font-size: 35%;
-    margin-top: 7em;
-    margin-left: 25em;
-  }
-
-  h3 {
-    font-size: 45%;
-    margin-top: 12em;
-  }
-
-  main {
-    font-size: 45%;
-  }
-
-  img.logo {
-    height: 4em;
-    width: 4em;
-  }
-
-  nav {
-    height: 1.5em;
-  }
-
-  nav ul {
-    font-size: 45%;
-    float: none;
-    display: inline-block;
-    text-align: center;
-    margin-top: -5em;
-  }
-}
-
-@media screen and (min-width: 600px) {
-  h1 {
-    font-size: 75%
-  }
-
-  h2 {
-    font-size: 50%;
-    margin-top: 1.3em;
-    margin-left: 22em;
-  }
-
-  h3 {
-    font-size: 75%;
-    margin-top: 3em;
-  }
-
-  main {
-    font-size: 75%;
-  }
-
-  img.logo {
-    width: 4em;
-    height: 4em;
-  }
-
-  nav {
-   height: 3em;
-   scale: 75%;
-  }
-
-  nav ul {
-  font-size: 100%;
-  float: none;
-  display: inline-block;
-  text-align: center;
-  margin-top: -5em;
-}
-}
-
 @media screen and (min-width: 1024px) {
   h1 {
     font-size: 150%
