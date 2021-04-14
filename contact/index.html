@@ -1,68 +1,69 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-  <title>Contact Us|ISUD</title>
-  <link rel="stylesheet" href="css/screen.css" media="screen" />
-  <link rel="stylesheet" href="css/resets.css" media="screen"/>
-  <link rel= "icon" href="media/ISUD-Logo.jpg" />
-  <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script async src="../js/site.js"></script>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>Contact Us|ISUD</title>
+    <link rel="stylesheet" href="css/screen.css" />
+    <link rel="stylesheet" href="css/resets.css" />
+    <link rel= "icon" href="media/ISUD-Logo.jpg" />
+    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script async src="../js/site.js"></script>
+  </head>
 
-  <body>
-    <header>
-      <div class="front">
-        <img class="logo" src="../media/ISUD-Logo.jpg" alt="ISUD Logo">
-        <h1>The International Society for Universal Dialogue</h1>
-      </div>
-      <nav id="nav">
-        <ul id="nav-buttons">
-          <li><a href="../">Home</a></li>
-          <li><a href="../about-us/index.html">About</a></li>
-          <li><a>Contact</a></li>
-        </ul>
-      </nav>
-      <h2>Contact Us!</h2>
-    </header>
+  <header>
+    <article class="logo">
+      <img id="logo" src="../media/ISUD-Logo.jpg" alt="ISUD Logo">
+    </article>
 
-    <main id="form-content">
-      <form id="form-one" method="get" autocomplete="on" action="#null" onsubmit= "return validationEvent()">
-        <p class="contact-statement">If you have any questions regarding our organization and upcoming events please fill out the form below.</p>
-        <fieldset>
-            <ul class="form-inputs">
-              <li>
-                <label for="first-name">First name:</label>
-                <input type="text" id="first-name" name="first-name" placeholder="Enter First Name">
-              </li>
-              <li>
-                <label for="last-name">Last name:</label>
-                <input type="text" id="last-name" name="last-name" placeholder="Enter Last Name">
-              </li>
-              <li>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="abc123@gmail.com">
-              </li>
-              <li>
-                <label for="reason">Reason for Contact:</label>
-                <input type="text" id="reason" name="reason" placeholder="Type Here">
-              </li>
-              <li id="check-box">
-                <label for="email-list">If you would like to be added to our email list please check this box.</label>
-                <input type="checkbox" id="check-box" name="check-box"/>
-              </li>
-              <li id="sub-button">
-                <input type="submit" value="Contact Now!">
-                <input type="reset" value="Clear">
-              </li>
-            </ul>
-        </fieldset>
-      </form>
-      <footer id="footer">
-        <p>Headquarters: 123 South Ur Mom Street, Chicago, IL</p>
-        <p>Site © ISUD | All Rights Reserved</p>
-      </footer>
-    </main>
-  </body>
+    <article class="title">
+      <h1>The International Society for Universal Dialogue</h1>
+    </article>
+
+    <nav id="navigation">
+      <ul id="nav-buttons">
+        <li><a href="../">Home</a></li>
+        <li><a href="../about-us/index.html">About Us</a></li>
+        <li><a>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="form-content">
+    <form id="form-one" method="get" autocomplete="on" action="#null" onsubmit= "return validationEvent()">
+      <p class="contact-statement">If you have any questions regarding our organization and upcoming events please fill out the form below.</p>
+      <fieldset>
+          <ul class="form-inputs">
+            <li>
+              <label for="first-name">First name:</label>
+              <input type="text" id="first-name" name="first-name" placeholder="Enter First Name">
+            </li>
+            <li>
+              <label for="last-name">Last name:</label>
+              <input type="text" id="last-name" name="last-name" placeholder="Enter Last Name">
+            </li>
+            <li>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="abc123@gmail.com">
+            </li>
+            <li>
+              <label for="reason">Reason for Contact:</label>
+              <input type="text" id="reason" name="reason" placeholder="Type Here">
+            </li>
+            <li id="check-box">
+              <label for="email-list">If you would like to be added to our email list please check this box.</label>
+              <input type="checkbox" id="check-box" name="check-box"/>
+            </li>
+            <li id="sub-button">
+              <input type="submit" value="Contact Now!">
+              <input type="reset" value="Clear">
+            </li>
+          </ul>
+      </fieldset>
+    </form>
+    <footer id="footer">
+      <p>Headquarters: 123 South Ur Mom Street, Chicago, IL</p>
+      <p>Site © ISUD | All Rights Reserved</p>
+    </footer>
+  </main>
 </html>
