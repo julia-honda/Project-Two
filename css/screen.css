@@ -228,6 +228,19 @@ label{
 }
 
 @media screen and (min-width: 1024px) {
+  
+  header{
+    display: grid;
+    grid-template-columns: 10em auto;
+    grid-template-rows: 5em auto;
+  }
+  
+  nav{
+    grid-row-start: 2;
+    grid-column-end: span 2;
+  }
+  
+  
   h1 {
     font-size: 150%
   }
