@@ -160,6 +160,10 @@ label {
     height: 20em;
   }
 
+  img.statue {
+    width: 30em;
+  }
+
   h1 {
     font-size: 200%;
   }
