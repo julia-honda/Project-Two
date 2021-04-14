@@ -10,7 +10,7 @@
     var b = document.forms["form-one"]["last-name"].value;
     var c = document.forms["form-one"]["email"].value;
     var d = document.forms["form-one"]["reason"].value;
-    if ((a == "") || (b == "") || (c == "") || (d == "") {
+    if ((a == "") || (b == "") || (c == "") || (d == "")) {
       alert("All of the sections must be filled out.");
     }
     else{
