@@ -53,13 +53,16 @@ nav a{
   background-color: #003187;
 }
 
+nav a:hover{
+  background-color: #0063cb;
+}
+
 /* Image above the footer on home page*/
 img.human-rights{
   display: block;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 1em;
   width: 15em;
 }
 
@@ -182,12 +185,14 @@ footer{
 
   nav a{
     font-size: 1.2em;
-    color: whitesmoke;
     text-decoration: none;
-    border-radius: 1em;
-    margin-left: 2em;
-    margin-right: 2em;
-    background-color: #003187;
+    border-radius: none;
+    margin-left: -0.5em;
+    margin-right: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 1px 1px grey;
   }
 
   /* Image above the footer on home page*/
