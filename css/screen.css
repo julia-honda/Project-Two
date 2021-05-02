@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
 
 html{
-  font-family: Times, Georgia;
+  font-family: Poppins, Georgia;
   font-size: 1.313em; /* 21px / 16px = 1.313em */
   line-height: 1.19047619em; /* 25px / 21px = 1.19047619em */
   padding: 0.79365079333em; /* 1 / 3 line-height */
@@ -107,6 +108,30 @@ footer{
 #reserved{
   font-size: 70%;
   text-align: center;
+}
+
+#content h4{
+  font-weight: bold;
+  font-size: 120%;
+}
+
+#content #upcoming {
+  padding-top: 1em;
+}
+
+#content #about {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+#content {
+  padding: 0.5em;
+  border: 0.3em solid #1e90ff;
+}
+
+#content li.breakfast, li.fun-run, li.seminar  {
+ padding: 0.5em;
 }
 
 @media screen and (min-width: 650px){
