@@ -1,3 +1,4 @@
+/*color pallete used: https://material.io/resources/color/#!/?view.left=0&view.right=1&primary.color=1e90ff&secondary.color=003187*/
 
 html{
   font-family: Times, Georgia;
@@ -124,7 +125,6 @@ footer{
   }
 }
 
-/*Here ends form css*/
 @media screen and (min-width: 1024px){
 
   header{
