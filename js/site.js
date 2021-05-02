@@ -1,19 +1,15 @@
 /*JavaScript added on this page */
 
-  jQuery(function($) {
-    $('html').removeClass('nojs');
-    $('html').addClass('hasjs');
-  });
+  var History = document.getElementById("about-us-history-title").onclick = function() {
+    showhideHistory()
+  };
 
-  function validationEvent() {
-    var a = document.forms["form-one"]["first-name"].value;
-    var b = document.forms["form-one"]["last-name"].value;
-    var c = document.forms["form-one"]["email"].value;
-    var d = document.forms["form-one"]["reason"].value;
-    if ((a == "") || (b == "") || (c == "") || (d == "")) {
-      alert("All of the sections must be filled out.");
-    }
-    else{
-      alert("Thank you for contacting us. We will get back to you soon!");
-    }
+  var Const = document.getElementById("about-us-const-title").onclick = function() {
+    document.getElementById("about-us-constitition").style.display = "block";
+  };
+
+  var Journal = document.getElementById("about-us-journal-title")
+
+  function showhideHistory() {
+    document.getElementById("about-us-history").style.display = "block"
   }
