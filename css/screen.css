@@ -97,6 +97,7 @@ nav a:hover{
 }
 
 #about-us-history{
+  display: none;
   border-block: 0.5em double blue;
   margin: 1em;
 }
@@ -105,6 +106,7 @@ nav a:hover{
 }
 
 #about-us-constitition{
+  display: none;
   border-block: 0.5em double blue;
   margin: 1em;
 }
@@ -126,14 +128,13 @@ nav a:hover{
 }
 
 #about-us-journal{
+  display: none;
   border-block: 0.5em double blue;
   margin: 1em;
 }
 #about-us-journal ul li{
   padding-block: 0.5em;
 }
-
-
 /* end about us */
 
 /* Image above the footer on home page*/
