@@ -2,10 +2,10 @@
 
 
 
-  var History = document.getElementById("about-us-content-title").onclick = function(){
-    showhideHistory()
+  var Content = document.getElementById("about-us-content-title").onclick = function(){
+    showhideContent()
   };
-  function showhideHistory() {
+  function showhideContent() {
     if (document.getElementById("about-us-content-title").onclick){
       if(document.getElementById("about-us-content").style.display === 'none'){
         document.getElementById("about-us-content").style.display = 'block';
