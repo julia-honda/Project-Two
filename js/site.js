@@ -1,7 +1,5 @@
 /*JavaScript added on this page */
 
-
-
   var Content = document.getElementById("about-us-content-title").onclick = function(){
     showhideContent()
   };
