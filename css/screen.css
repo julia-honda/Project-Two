@@ -258,30 +258,24 @@ footer{
   }
 }
 
-@media screen and (min-width: 1665px) {
-  h1 {
-    position: fixed;
-    text-align: center;
-    margin-top: 2em;
-    padding-block: 0.5em;
-    padding-left: 6em;
-    padding-right: 6em;
+@media screen and (min-width: 1700px) {
+  h1{
+    width: 32.5em;
+    font-size: 200%;
+    margin-left: auto;
+    margin-right: auto;
   }
-  nav {
-    position: fixed;
-    margin-left: 15.5em;
-    margin-top: 9em;
-    padding-left: 15em;
-    padding-right: 15em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-
+  nav{
+    width: 60.75em;
+    margin-left: auto;
+    margin-right: auto;
   }
-  nav a {
-    font-size: 120%;
-    display: inline;
+  img.logo{
+    align-content: space-evenly;
   }
-  img.logo {
-    padding-bottom: 2em;
+  #content{
+    width: 77em;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
