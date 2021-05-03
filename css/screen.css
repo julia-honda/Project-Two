@@ -89,6 +89,97 @@ nav a:hover{
   background-color: #0063cb;
 }
 
+/* Begin About Us */
+#about-us-images{
+  display: none;
+}
+
+#about-us-info-mobile{
+  font-style: italic;
+  text-align: center;
+  border: 0.2em ridge lightgrey;
+  padding: 0.3em;
+}
+#about-us-info{
+  display: none;
+}
+
+.about-us-title{
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.5em;
+  border-radius: 1em;
+  padding-top: 0.3em;
+  padding-bottom: 0.2em;
+
+  /* Important for the hover gradient effect */
+  color: #14396A;
+  text-shadow: 1px 1px 0px #7CACDE;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  border: 2px solid #003187;
+  background: #6FC0FF;
+  background: linear-gradient(to top, #6FC0FF, #468CCF);
+}
+.about-us-title:hover{
+  color: #14396A !important;
+  background: #468CCF;
+  background: linear-gradient(to top, #468CCF, #6FC0FF);
+}
+
+#about-us-content{
+  display: none;
+  border-block: 0.5em double blue;
+  margin: 1em;
+}
+#about-us-content p{
+  padding-block: 0.8em;
+}
+#about-us-content ul li{
+  padding-block: 0.5em;
+}
+
+#about-us-history{
+  display: none;
+  border-block: 0.5em double blue;
+  margin: 1em;
+}
+#about-us-history ul li{
+  padding-block: 0.5em;
+}
+
+#about-us-constitition{
+  display: none;
+  border-block: 0.5em double blue;
+  margin: 1em;
+}
+#about-us-constitition ul li{
+  padding-block: 0.5em;
+}
+#about-us-constitition h5{
+  padding-top: 0.8em;
+}
+.const-title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+#about-us-constitition h6{
+  font-size: 0.8em;
+  padding-top: 0.8em;
+  font-style: italic;
+}
+
+#about-us-journal{
+  display: none;
+  border-block: 0.5em double blue;
+  margin: 1em;
+}
+#about-us-journal ul li{
+  padding-block: 0.5em;
+}
+/* end about us */
+
 /* Image above the footer on home page*/
 img.human-rights{
   display: block;
@@ -101,6 +192,7 @@ img.human-rights{
 footer{
   font-size: 85%;
   padding-left: 0.5em;
+  margin-top: 1.5em;
   padding: 0.5em;
   background-color: #1e90ff;
   color: #FFFFFF;
@@ -313,12 +405,22 @@ label{
     text-align: center;
   }
 
-  input{
-    width: 40%;
+  /* Begin About Us */
+  #about-us-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
-
-  #sub-button, #res-button{
-    width: 20%;
+  #about-us-images ul li{
+    display: inline-block;
+    padding-left: 0.5em;
+  }
+  #about-us-images img{
+    width: 10em;
+    border-left: 0.15em solid #6fc0ff;
+    box-shadow: 4px 4px 7px black;
   }
 }
 
@@ -329,6 +431,11 @@ label{
   nav{
     margin-top: -3em;
   }
+
+  /* Begin About Us */
+  #about-us-images img{
+    width: 11em;
+
   img.statue {
     width: 30em;
   }
@@ -348,31 +455,25 @@ label{
   }
 }
 
-@media screen and (min-width: 1665px) {
-  h1 {
-    position: fixed;
-    text-align: center;
-    margin-top: 2em;
-    padding-block: 0.5em;
-    padding-left: 6em;
-    padding-right: 6em;
+@media screen and (min-width: 1700px) {
+  h1{
+    width: 32.5em;
+    font-size: 200%;
+    margin-left: auto;
+    margin-right: auto;
   }
-  nav {
-    position: fixed;
-    margin-left: 15.5em;
-    margin-top: 9em;
-    padding-left: 15em;
-    padding-right: 15em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-
+  nav{
+    width: 60.75em;
+    margin-left: auto;
+    margin-right: auto;
   }
-  nav a {
-    font-size: 120%;
-    display: inline;
+  img.logo{
+    align-content: space-evenly;
   }
-  img.logo {
-    padding-bottom: 2em;
+  #content{
+    width: 77em;
+    margin-left: auto;
+    margin-right: auto;
   }
   input{
     width: 20%;
