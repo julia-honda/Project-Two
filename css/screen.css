@@ -135,6 +135,52 @@ footer{
  padding: 0.5em;
 }
 
+/*Here starts form css*/
+fieldset{
+  border-color: transparent;
+}
+#form-content{
+  display: block;
+  text-align: center;
+}
+
+.form-inputs{
+  list-style-type: none;
+}
+
+input{
+  border-color: transparent;
+  background-color: #6fc0ff;
+  overflow: visible;
+  align-content: center;
+  width: 90%
+
+}
+#label-inputs{
+  padding-bottom: 1em;
+}
+
+label{
+  padding-bottom: 1em;
+}
+#reason{
+
+}
+.contact-statement{
+  padding-bottom: 0.5em;
+}
+#sub-button{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 20px;
+}
+
+#res-button{
+  border-radius: 20px;
+}
+/*Here ends form css*/
+
+/*Here starts the media query css*/
 @media screen and (min-width: 650px){
   h1{
     font-size: 1.75em;
