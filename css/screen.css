@@ -249,18 +249,24 @@ input{
 
 }
 #label-inputs{
+  text-align: center;
   padding-bottom: 1em;
 }
 
 label{
-  padding-bottom: 1em;
+  display: block;
+  justify-content: center;
+  padding-bottom: 0.5em;
 }
-#reason{
 
+#reason{
+  padding-bottom: 6em;
 }
+
 .contact-statement{
   padding-bottom: 0.5em;
 }
+
 #sub-button{
   margin-top: 1em;
   margin-bottom: 1em;
@@ -273,6 +279,16 @@ label{
 /*Here ends form css*/
 
 /*Here starts the media query css*/
+@media screen and (min-width: 490px){
+/*for form inputs*/
+  input{
+    width: 70%;
+  }
+  #sub-button, #res-button{
+    width: 50%;
+  }
+}
+
 @media screen and (min-width: 650px){
   h1{
     font-size: 1.75em;
@@ -285,6 +301,24 @@ label{
 
   img.human-rights{
     width: 20em;
+  }
+/*for form inputs*/
+  input{
+    width: 50%;
+  }
+  #sub-button, #res-button{
+    width: 50%;
+    /*margin-left: 7em*/
+  }
+}
+
+@media screen and (min-width: 800px){
+/*for form inputs*/
+  input{
+    width: 40%;
+  }
+  #sub-button, #res-button{
+    width: 25%;
   }
 }
 
@@ -374,7 +408,6 @@ label{
     font-size: 80%;
     text-align: center;
   }
-
   /* Begin About Us */
   #about-us-images{
     display: flex;
@@ -392,6 +425,13 @@ label{
     border-left: 0.15em solid #6fc0ff;
     box-shadow: 4px 4px 7px black;
   }
+/*for form inputs*/
+  input{
+    width: 35%;
+  }
+  #sub-button, #res-button{
+    width: 20%;
+  }
 }
 
 @media screen and (min-width: 1176px){
@@ -401,11 +441,11 @@ label{
   nav{
     margin-top: -3em;
   }
-  
+
   /* Begin About Us */
   #about-us-images img{
     width: 11em;
-    
+
   img.statue {
     width: 30em;
   }
@@ -416,6 +456,13 @@ label{
 
   nav a {
     font-size: 150%;
+  }
+/*for form inputs*/
+  input{
+    width: 30%;
+  }
+  #sub-button, #res-button{
+    width: 15%;
   }
 }
 
@@ -438,5 +485,12 @@ label{
     width: 77em;
     margin-left: auto;
     margin-right: auto;
+  }
+/*for form inputs*/
+  input{
+    width: 20%;
+  }
+  #sub-button, #res-button{
+    width: 12%;
   }
 }
