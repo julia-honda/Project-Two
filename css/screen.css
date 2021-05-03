@@ -157,18 +157,24 @@ input{
 
 }
 #label-inputs{
+  text-align: center;
   padding-bottom: 1em;
 }
 
 label{
-  padding-bottom: 1em;
+  display: block;
+  justify-content: center;
+  padding-bottom: 0.5em;
 }
-#reason{
 
+#reason{
+  padding-bottom: 6em;
 }
+
 .contact-statement{
   padding-bottom: 0.5em;
 }
+
 #sub-button{
   margin-top: 1em;
   margin-bottom: 1em;
@@ -181,6 +187,15 @@ label{
 /*Here ends form css*/
 
 /*Here starts the media query css*/
+@media screen and (min-width: 490px){
+  input{
+    width: 70%;
+  }
+  #sub-button, #res-button{
+    width: 50%;
+  }
+}
+
 @media screen and (min-width: 650px){
   h1{
     font-size: 1.75em;
@@ -193,6 +208,21 @@ label{
 
   img.human-rights{
     width: 20em;
+  }
+  input{
+    width: 50%;
+  }
+  #sub-button, #res-button{
+    width: 50%;
+    /*margin-left: 7em*/
+  }
+}
+@media screen and (min-width: 800px){
+  input{
+    width: 40%;
+  }
+  #sub-button, #res-button{
+    width: 20%;
   }
 }
 
@@ -282,6 +312,14 @@ label{
     font-size: 80%;
     text-align: center;
   }
+
+  input{
+    width: 40%;
+  }
+
+  #sub-button, #res-button{
+    width: 20%;
+  }
 }
 
 @media screen and (min-width: 1176px){
@@ -301,6 +339,12 @@ label{
 
   nav a {
     font-size: 150%;
+  }
+  input{
+    width: 30%;
+  }
+  #sub-button, #res-button{
+    width: 15%;
   }
 }
 
@@ -329,5 +373,8 @@ label{
   }
   img.logo {
     padding-bottom: 2em;
+  }
+  input{
+    width: 20%;
   }
 }
