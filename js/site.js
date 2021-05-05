@@ -7,13 +7,15 @@ const lname = document.getElementById('last-name');
 const email = document.getElementById('email');
 const reason = document.getElementById('reason');
 
-var a = form.value;
-var b = fname.value;
-var c = lname.value;
-var d = email.value;
-var e = reason.value;
+/*var a = form.value;*/
 
 function validationEvent(event) {
+  var a = form.value;
+  var b = fname.value;
+  var c = lname.value;
+  var d = email.value;
+  var e = reason.value;
+  /*(a == "") || */
   if((a == "") || (b == "") || (c == "") || (d == "") || (e == "")) {
     event.preventDefault();
     alert("All of the sections must be filled out.");
@@ -25,7 +27,7 @@ function validationEvent(event) {
 
 form.addEventListener('submit', validationEvent);
 
-/*about us javascript
+/*about us javascript*/
 
   var Content = document.getElementById("about-us-content-title").onclick = function(){
     showhideContent()
@@ -84,7 +86,7 @@ function validationEvent() {
     alert("Please be sure all fields are filled out!");
     return false;
   }
-}*/
+}
 
 /*old code that used js code in html*/
 /*
