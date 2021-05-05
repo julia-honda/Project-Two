@@ -427,7 +427,7 @@ label{
   }
 /*for form inputs*/
   input{
-    width: 35%;
+    width: 30%;
   }
   #sub-button, #res-button{
     width: 20%;
@@ -459,7 +459,7 @@ label{
   }
 /*for form inputs*/
   input{
-    width: 30%;
+    width: 25%;
   }
   #sub-button, #res-button{
     width: 15%;
