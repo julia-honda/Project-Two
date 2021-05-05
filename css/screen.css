@@ -470,6 +470,7 @@ label{
   h1{
     width: 32.5em;
     font-size: 200%;
+    margin-bottom: 2em;
     margin-left: auto;
     margin-right: auto;
   }
@@ -478,9 +479,10 @@ label{
     margin-left: auto;
     margin-right: auto;
   }
-  img.logo{
-    align-content: space-evenly;
-  }
+  header {
+  align-items:center;
+  justify-content:center;
+}
   #content{
     width: 77em;
     margin-left: auto;
