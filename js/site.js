@@ -14,18 +14,18 @@ var d = email.value;
 var e = reason.value;
 
 function validationEvent(event) {
-  if((a == "0") || (b == "0") || (c == "0") || (d == "0") || (e == "0")){
-      alert("All of the sections must be filled out.");
+  if((a == "") || (b == "") || (c == "") || (d == "") || (e == "")) {
+    event.preventDefault();
+    alert("All of the sections must be filled out.");
   }
   else {
     form.textContent = 'Thank you for reaching out to us! We will get back to you soon.';
-    event.preventDefault();
   }
 };
 
 form.addEventListener('submit', validationEvent);
 
-/*about us javascript*/
+/*about us javascript
 
   var Content = document.getElementById("about-us-content-title").onclick = function(){
     showhideContent()
@@ -64,7 +64,7 @@ form.addEventListener('submit', validationEvent);
     }
   }
   var Journal = document.getElementById("about-us-journal-title").onclick = function(){
-s    showhideJournal()
+    showhideJournal()
   };
   function showhideJournal() {
     if (document.getElementById("about-us-journal-title").onclick){
@@ -74,8 +74,7 @@ s    showhideJournal()
         document.getElementById("about-us-journal").style.display = 'none';
       }
     }
-  }
-
+  }*/
 
 /*document.getElementById("form-one").onsubmit = function() {validationEvent()};
 
