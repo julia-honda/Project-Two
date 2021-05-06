@@ -1,4 +1,33 @@
 /*JavaScript added on this page */
+/*New code used for form validation*/
+
+const form = document.getElementById('form-one');
+const fname = document.getElementById('first-name');
+const lname = document.getElementById('last-name');
+const email = document.getElementById('email');
+const reason = document.getElementById('reason');
+
+/*var a = form.value;*/
+
+function validationEvent(event) {
+  var a = form.value;
+  var b = fname.value;
+  var c = lname.value;
+  var d = email.value;
+  var e = reason.value;
+  /*(a == "") || */
+  if((a == "") || (b == "") || (c == "") || (d == "") || (e == "")) {
+    event.preventDefault();
+    alert("All of the sections must be filled out.");
+  }
+  else {
+    form.textContent = 'Thank you for reaching out to us! We will get back to you soon.';
+  }
+};
+
+form.addEventListener('submit', validationEvent);
+
+/*about us javascript*/
 
   var Content = document.getElementById("about-us-content-title").onclick = function(){
     showhideContent()
@@ -21,7 +50,9 @@
         document.getElementById("about-us-history").style.display = 'block';
       }else {
         document.getElementById("about-us-history").style.display = 'none';
-      }    
+      }
+    }
+  }
   var Const = document.getElementById("about-us-const-title").onclick = function(){
     showhideConst()
   };
@@ -47,20 +78,6 @@
     }
   }
 
-/*New code used for form validation*/
-
-function validationEvent(event) {
-  form.textContent = `Thank you for reaching out to us! We will get back to you soon.`;
-  event.preventDefault();
-}
-const form = document.getElementById('form-one')
-const fname = document.getElementById('first-name')
-const lname = document.getElementById('last-name')
-const email = document.getElementById('email')
-const reason = document.getElementById('reason')
-
-form.addEventListener('submit', validationEvent);
-
 /*document.getElementById("form-one").onsubmit = function() {validationEvent()};
 
 function validationEvent() {
@@ -69,7 +86,7 @@ function validationEvent() {
     alert("Please be sure all fields are filled out!");
     return false;
   }
-}*/
+}
 
 /*old code that used js code in html*/
 /*
