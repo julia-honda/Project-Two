@@ -7,7 +7,7 @@ const lname = document.getElementById('last-name');
 const email = document.getElementById('email');
 const reason = document.getElementById('reason');
 
-/*var a = form.value;*/
+
 
 function validationEvent(event) {
   var a = form.value;
@@ -15,7 +15,7 @@ function validationEvent(event) {
   var c = lname.value;
   var d = email.value;
   var e = reason.value;
-  /*(a == "") || */
+
   if((a == "") || (b == "") || (c == "") || (d == "") || (e == "")) {
     event.preventDefault();
     alert("All of the sections must be filled out.");
@@ -23,9 +23,9 @@ function validationEvent(event) {
   else {
     form.textContent = 'Thank you for reaching out to us! We will get back to you soon.';
   }
+  form.addEventListener('submit', validationEvent);
 };
 
-form.addEventListener('submit', validationEvent);
 
 /*about us javascript*/
 
@@ -76,7 +76,9 @@ form.addEventListener('submit', validationEvent);
         document.getElementById("about-us-journal").style.display = 'none';
       }
     }
-  }*/
+  }
+
+
 
 /*document.getElementById("form-one").onsubmit = function() {validationEvent()};
 
