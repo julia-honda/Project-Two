@@ -76,7 +76,7 @@ form.addEventListener('submit', validationEvent);
         document.getElementById("about-us-journal").style.display = 'none';
       }
     }
-  }*/
+  }
 
 /*document.getElementById("form-one").onsubmit = function() {validationEvent()};
 
