@@ -83,6 +83,7 @@ if(document.body.contains(document.getElementById("about-us-content"))) {
       }
     }
   }
+}
 
 /*document.getElementById("form-one").onsubmit = function() {validationEvent()};
 
