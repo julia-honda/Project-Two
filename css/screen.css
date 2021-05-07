@@ -79,6 +79,8 @@ nav a{
   text-decoration: none;
   display: block;
   border-radius: 1em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   padding-block: 0.35em;
   margin-right: 0.5em;
   background-color: #003187;
@@ -443,15 +445,14 @@ label{
   /* Begin About Us */
   #about-us-images img{
     width: 11em;
-
+  }
   img.statue {
     width: 30em;
   }
-
   h1 {
     font-size: 175%;
+    margin-top: 2em;
   }
-
   nav a {
     font-size: 150%;
   }
@@ -485,7 +486,17 @@ label{
     width: 77em;
     margin-left: auto;
     margin-right: auto;
-  }
+}
+  #about-us-content-page{
+  width: 77em;
+  margin-left: auto;
+  margin-right: auto;
+}
+  #content-footer{
+    width: 77em;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*for form inputs*/
   input{
     width: 20%;
