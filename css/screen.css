@@ -7,6 +7,7 @@ html{
   line-height: 1.19047619em; /* 25px / 21px = 1.19047619em */
   padding: 0.79365079333em; /* 1 / 3 line-height */
   border: 0.3em outset lightgrey;
+  background-color: #f8f8ff;
 }
 
 h1{
@@ -130,11 +131,12 @@ nav a:hover{
 
 #about-us-content{
   display: none;
-  border-block: 0.5em double blue;
+  background-color: #e2e2e2;
   margin: 1em;
 }
 #about-us-content p{
   padding-block: 0.8em;
+  padding-left: 0.5em;
 }
 #about-us-content ul li{
   padding-block: 0.5em;
@@ -142,22 +144,26 @@ nav a:hover{
 
 #about-us-history{
   display: none;
-  border-block: 0.5em double blue;
+  background-color: #e2e2e2;
   margin: 1em;
 }
 #about-us-history ul li{
+  list-style-type: none;
   padding-block: 0.5em;
 }
 
 #about-us-constitition{
   display: none;
-  border-block: 0.5em double blue;
+  background-color: #e2e2e2;
   margin: 1em;
 }
 #about-us-constitition ul li{
+  list-style-type: none;
   padding-block: 0.5em;
 }
 #about-us-constitition h5{
+  font-weight: bold;
+  text-align: center;
   padding-top: 0.8em;
 }
 .const-title{
@@ -177,6 +183,7 @@ nav a:hover{
   margin: 1em;
 }
 #about-us-journal ul li{
+  list-style-type: none;
   padding-block: 0.5em;
 }
 /* end about us */
@@ -295,6 +302,10 @@ label{
     font-size: 1.75em;
   }
 
+  nav{
+    padding-top: -0.3em;
+    padding-bottom: -0.3em;
+  }
   nav a{
     margin-right: 0.5em;
   }
