@@ -1,13 +1,19 @@
 /*JavaScript added on this page */
 /*New code used for form validation*/
+var form;
+var fname;
+var lname;
+var email;
+var reason;
 
-const form = document.getElementById('form-one');
-const fname = document.getElementById('first-name');
-const lname = document.getElementById('last-name');
-const email = document.getElementById('email');
-const reason = document.getElementById('reason');
-
-/*var a = form.value;*/
+if(document.body.contains(document.getElementById("form-content"))){
+  form = document.getElementById('form-one');
+  fname = document.getElementById('first-name');
+  lname = document.getElementById('last-name');
+  email = document.getElementById('email');
+  reason = document.getElementById('reason');
+  form.addEventListener('submit', validationEvent);
+}
 
 function validationEvent(event) {
   var a = form.value;
@@ -15,20 +21,20 @@ function validationEvent(event) {
   var c = lname.value;
   var d = email.value;
   var e = reason.value;
-  /*(a == "") || */
+
   if((a == "") || (b == "") || (c == "") || (d == "") || (e == "")) {
     event.preventDefault();
     alert("All of the sections must be filled out.");
   }
   else {
-    form.textContent = 'Thank you for reaching out to us! We will get back to you soon.';
+    alert("Thank you for reaching out to us! We will get back to you soon.");
+    /*form.textContent = 'Thank you for reaching out to us! We will get back to you soon.';*/
+    /*not running possibly because we aren't submitting the form anywhere*/
   }
 };
 
-form.addEventListener('submit', validationEvent);
-
 /*about us javascript*/
-
+if(document.body.contains(document.getElementById("about-us-content"))) {
   var Content = document.getElementById("about-us-content-title").onclick = function(){
     showhideContent()
   };
@@ -77,6 +83,7 @@ form.addEventListener('submit', validationEvent);
       }
     }
   }
+}
 
 /*document.getElementById("form-one").onsubmit = function() {validationEvent()};
 
