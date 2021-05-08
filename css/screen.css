@@ -186,6 +186,13 @@ nav a:hover{
   list-style-type: none;
   padding-block: 0.5em;
 }
+#journal-info{
+  text-align: center;
+}
+#journal-url{
+  font-size: 50%;
+  text-align: center;
+}
 /* end about us */
 
 /* Image above the footer on home page*/
@@ -295,6 +302,10 @@ label{
   #sub-button, #res-button{
     width: 50%;
   }
+  #journal-url{
+  font-size: 70%;
+  text-align: center;
+}
 }
 
 @media screen and (min-width: 650px){
@@ -321,6 +332,10 @@ label{
     width: 50%;
     /*margin-left: 7em*/
   }
+  #journal-url{
+  font-size: 100%;
+  text-align: center;
+}
 }
 
 @media screen and (min-width: 800px){
