@@ -263,7 +263,7 @@ input{
   width: 90%
 
 }
-#label-inputs{
+#label-inputs-fn, #label-inputs-ln, #label-inputs-email, #label-inputs-reason{
   text-align: center;
   padding-bottom: 1em;
 }
