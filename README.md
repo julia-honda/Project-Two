@@ -1,9 +1,13 @@
 # Project-Two
 
+#personal repository
+
 Requirements:
 
 All source files in UTF-8/Unicode character encoding.
+
 No code-generators like WYSIWYGs, Bootstrap, or other off-the-shelf frameworks.
+
 HTML, CSS, and JavaScript files should both be indented with 2 spaces per level of indent; indent all CSS style rules inside the declaring block, and further indent all rules and blocks inside your media queries.
 Must pass HTML and CSS validators!
 
