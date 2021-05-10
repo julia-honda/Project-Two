@@ -179,7 +179,7 @@ nav a:hover{
 
 #about-us-journal{
   display: none;
-  border-block: 0.5em double blue;
+  background-color: #e2e2e2;
   margin: 1em;
 }
 #about-us-journal ul li{
